@@ -362,8 +362,8 @@ class Scene {
     }
     update(delta) { }
     delete() {
-        this.guiVR.visible = false;
         if (renderer.vr.enabled) {
+            this.guiVR.visible = false;
             while (this.guiVR.hitscan.length > 0)
                 this.guiVR.hitscan.pop();
             while (this.guiVR.raycast.length > 0)
