@@ -1,0 +1,78 @@
+{
+    "preset": "Wave effect 4",
+    "closed": false,
+    "remembered": {
+      "Default": {
+        "0": {
+          "separation": 80,
+          "widthWave": 120,
+          "heightWave": 80,
+          "paricleScale": 500,
+          "particle1Color": 2096328,
+          "particle2Color": 2096328,
+          "waveSpeed": 12
+        }
+      },
+      "Wave effect 1": {
+        "0": {
+          "separation": 114.20175072947062,
+          "widthWave": 200,
+          "heightWave": 56.577323884952065,
+          "paricleScale": 247.311379741559,
+          "particle1Color": 12779264,
+          "particle2Color": 5111555,
+          "waveSpeed": 9.685563429206614
+        }
+      },
+      "Wave effect 2": {
+        "0": {
+          "separation": 150.30568292344032,
+          "widthWave": 152.137140475198,
+          "heightWave": 42.42031401973044,
+          "paricleScale": 151.27136306794498,
+          "particle1Color": 3564013,
+          "particle2Color": 6776818,
+          "waveSpeed": 7.827011254689454
+        }
+      },
+      "Wave effect 3": {
+        "0": {
+          "separation": 214.77699041267192,
+          "widthWave": 200,
+          "heightWave": 30.032930387661523,
+          "paricleScale": 1000,
+          "particle1Color": 16711680,
+          "particle2Color": 4980480,
+          "waveSpeed": 14.923301375573155
+        }
+      },
+      "Wave effect 4": {
+        "0": {
+          "separation": 52.309295539808254,
+          "widthWave": 60.11657635125747,
+          "heightWave": 120.28386827844935,
+          "paricleScale": 100,
+          "particle1Color": 3743740,
+          "particle2Color": 16523039,
+          "waveSpeed": 6.475336945949701
+        }
+      }
+    },
+    "folders": {
+      "Main": {
+        "preset": "Default",
+        "closed": false,
+        "folders": {}
+      },
+      "Global scene": {
+        "preset": "Default",
+        "closed": true,
+        "folders": {}
+      },
+      "Scene": {
+        "preset": "Default",
+        "closed": true,
+        "folders": {}
+      }
+    }
+  }

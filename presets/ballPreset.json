@@ -1,0 +1,191 @@
+{
+  "preset": "Default",
+  "remembered": {
+    "Default": {
+      "0": {
+        "ambientLightIntensity": 1,
+        "ambientLight": 11184810,
+        "spotLightIntensity": 1.3,
+        "spotLight": 16777215,
+        "ballRadius": 15,
+        "ballDetail": 2,
+        "ballShininess": 30,
+        "ballFlatShading": true,
+        "ballWireframe": false,
+        "ballColor": 3703029,
+        "ballEmissive": 0,
+        "ballSpecular": 1118481,
+        "planeSegment": 20,
+        "planeFlatShading": true,
+        "planeWireframe": false,
+        "planeColor": 7340257,
+        "ballBassFrequency": "lowerMaxFr",
+        "plane1Frequency": "overallMaxFr",
+        "plane2Frequency": "lowerMaxFr",
+        "rotation": 0.5
+      }
+    },
+    "Ball effect 1": {
+      "0": {
+        "ambientLightIntensity": 0.8183965541197722,
+        "ambientLight": 5722945,
+        "spotLightIntensity": 1.9924968736973738,
+        "spotLight": 16758631,
+        "ballRadius": 19.654439349729053,
+        "ballDetail": 4,
+        "ballShininess": 24.037793525079895,
+        "ballFlatShading": false,
+        "ballWireframe": true,
+        "ballColor": 16730880,
+        "ballEmissive": 0,
+        "ballSpecular": 13158600,
+        "planeSegment": 30.409754064193415,
+        "planeFlatShading": false,
+        "planeWireframe": true,
+        "planeColor": 16738304,
+        "ballBassFrequency": "lowerAvgFr",
+        "plane1Frequency": "upperMaxFr",
+        "plane2Frequency": "lowerMaxFr",
+        "rotation": 0.5
+      }
+    },
+    "Ball effect 2": {
+      "0": {
+        "ambientLightIntensity": 0.6850076420730861,
+        "ambientLight": 7893332,
+        "spotLightIntensity": 1.192163401417257,
+        "spotLight": 16777215,
+        "ballRadius": 19.86786160900375,
+        "ballDetail": 4,
+        "ballShininess": 299.7082117548979,
+        "ballFlatShading": false,
+        "ballWireframe": false,
+        "ballColor": 41558,
+        "ballEmissive": 0,
+        "ballSpecular": 65325,
+        "planeSegment": 34.81158816173406,
+        "planeFlatShading": false,
+        "planeWireframe": false,
+        "planeColor": 2434341,
+        "ballBassFrequency": "overallMaxFr",
+        "plane1Frequency": "lowerMaxFr",
+        "plane2Frequency": "lowerAvgFr",
+        "rotation": 1.0031957760177852
+      }
+    },
+    "Ball effect 3": {
+      "0": {
+        "ambientLightIntensity": 1.4853411143532027,
+        "ambientLight": 7302033,
+        "spotLightIntensity": 2.9706822287064054,
+        "spotLight": 10507605,
+        "ballRadius": 25,
+        "ballDetail": 0,
+        "ballShininess": 59.60817007086286,
+        "ballFlatShading": true,
+        "ballWireframe": false,
+        "ballColor": 11141220,
+        "ballEmissive": 0,
+        "ballSpecular": 1118481,
+        "planeSegment": 49.77782409337224,
+        "planeFlatShading": true,
+        "planeWireframe": false,
+        "planeColor": 4151039,
+        "ballBassFrequency": "upperAvgFr",
+        "plane1Frequency": "lowerAvgFr",
+        "plane2Frequency": "lowerMaxFr",
+        "rotation": 0.20286230373766848
+      }
+    },
+    "Ball effect 4": {
+      "0": {
+        "ambientLightIntensity": 0.7739335834375434,
+        "ambientLight": 4151039,
+        "spotLightIntensity": 1.9924968736973738,
+        "spotLight": 16777215,
+        "ballRadius": 15,
+        "ballDetail": 2,
+        "ballShininess": 317.49340002778933,
+        "ballFlatShading": true,
+        "ballWireframe": true,
+        "ballColor": 63377,
+        "ballEmissive": 0,
+        "ballSpecular": 1118481,
+        "planeSegment": 34.81158816173406,
+        "planeFlatShading": true,
+        "planeWireframe": true,
+        "planeColor": 17952,
+        "ballBassFrequency": "lowerMaxFr",
+        "plane1Frequency": "upperAvgFr",
+        "plane2Frequency": "overallMaxFr",
+        "rotation": 0.34514380992080035
+      }
+    },
+    "Ball effect 5": {
+      "0": {
+        "ambientLightIntensity": 0.24037793525079895,
+        "ambientLight": 16777215,
+        "spotLightIntensity": 2.5260525218841186,
+        "spotLight": 16777215,
+        "ballRadius": 5.355147978324302,
+        "ballDetail": 4,
+        "ballShininess": 10.698902320411282,
+        "ballFlatShading": false,
+        "ballWireframe": false,
+        "ballColor": 0,
+        "ballEmissive": 0,
+        "ballSpecular": 1118481,
+        "planeSegment": 14.563151313047104,
+        "planeFlatShading": false,
+        "planeWireframe": false,
+        "planeColor": 16777215,
+        "ballBassFrequency": "lowerAvgFr",
+        "plane1Frequency": "overallAvgFr",
+        "plane2Frequency": "overallMaxFr",
+        "rotation": 0.8253438932888704
+      }
+    },
+    "Ball effect 6": {
+      "0": {
+        "ambientLightIntensity": 0.5960817007086285,
+        "ambientLight": 16777215,
+        "spotLightIntensity": 5.015978880088926,
+        "spotLight": 11055863,
+        "ballRadius": 15,
+        "ballDetail": 1,
+        "ballShininess": 30,
+        "ballFlatShading": true,
+        "ballWireframe": false,
+        "ballColor": 3285430,
+        "ballEmissive": 0,
+        "ballSpecular": 1118481,
+        "planeSegment": 25.127553147144642,
+        "planeFlatShading": true,
+        "planeWireframe": false,
+        "planeColor": 6094980,
+        "ballBassFrequency": "lowerMaxFr",
+        "plane1Frequency": "overallMaxFr",
+        "plane2Frequency": "lowerMaxFr",
+        "rotation": 0.3984993747394748
+      }
+    }
+  },
+  "closed": false,
+  "folders": {
+    "Main": {
+      "preset": "Default",
+      "closed": false,
+      "folders": {}
+    },
+    "Global scene": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    },
+    "Scene": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    }
+  }
+}
