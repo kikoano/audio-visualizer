@@ -33,6 +33,15 @@ window.addEventListener("resize", () => {
 //Music list
 const music = ["Alan Walker - Fade.mp3", "Darude - Sandstorm.mp3", "Half-Life 2 - Path Of Borealis.mp3", "TES V - From Past to Present.mp3", "Kenet & Rez - Unreal Superhero 3.mp3"].sort();
 
+//Get query string music parameter
+const params = new URLSearchParams(window.location.search);
+const musicParam = params.get("music");
+
+//Set defaul music
+let defaulMusic = music[0];
+if (musicParam != null)
+    defaulMusic = music[musicParam];
+
 //Scene list
 const scenes = ["Ball", "Wave"];
 
@@ -59,7 +68,7 @@ let pausedTime = 0;
 
 //GUI controls
 const guiData = {
-    music: music[0],
+    music: defaulMusic,
     scene: scenes[0],
     currentTime: 0.1,
     volume: 1,
