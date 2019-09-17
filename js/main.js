@@ -430,7 +430,7 @@ class BallScene extends Scene {
             planeSegment: 20,
             planeFlatShading: true,
             planeWireframe: false,
-            planeColor: 0x7000e1,
+            planeColor: 0x12c5ba,
             ballBassFrequency: Object.keys(frData)[0],
             ballTreFrequency: Object.keys(frData)[3],
             plane1Frequency: Object.keys(frData)[4],

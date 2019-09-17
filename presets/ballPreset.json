@@ -18,7 +18,7 @@
         "planeSegment": 20,
         "planeFlatShading": true,
         "planeWireframe": false,
-        "planeColor": 7340257,
+        "planeColor": 1230266,
         "ballBassFrequency": "lowerMaxFr",
         "plane1Frequency": "overallMaxFr",
         "plane2Frequency": "lowerMaxFr",
