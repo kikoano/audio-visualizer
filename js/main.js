@@ -122,9 +122,9 @@ const createGui = (preset) => {
 
     pauseResumeControl = folderMain.add(guiData, "pauseResumeMusic");
     if (guiData.pauseResumeMusic)
-        pauseResumeControl.name("▶️ Resume");
-    else
         pauseResumeControl.name("⏸️ Pause");
+    else
+        pauseResumeControl.name("▶️ Resume");
     volumeControl = folderMain.add(guiData, "volume", 0, 1).name("Volume");
     folderMain.add(guiData, "customMusic").name("📂 Open custom")
     folderMain.add(guiData, "customMusicName").name("Custom music name").listen();
