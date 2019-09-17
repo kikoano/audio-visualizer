@@ -119,7 +119,12 @@ const createGui = (preset) => {
     sceneConrol = folderMain.add(guiData, "scene", scenes).name("Scene");
     musicControl = folderMain.add(guiData, "music", music).listen().name("Music");
     currentTimeGui = folderMain.add(guiData, "currentTime", 0, 0).listen().name("Current time");
-    pauseResumeControl = folderMain.add(guiData, "pauseResumeMusic").name("⏸️ Pause");
+
+    pauseResumeControl = folderMain.add(guiData, "pauseResumeMusic");
+    if (guiData.pauseResumeMusic)
+        pauseResumeControl.name("▶️ Resume");
+    else
+        pauseResumeControl.name("⏸️ Pause");
     volumeControl = folderMain.add(guiData, "volume", 0, 1).name("Volume");
     folderMain.add(guiData, "customMusic").name("📂 Open custom")
     folderMain.add(guiData, "customMusicName").name("Custom music name").listen();
