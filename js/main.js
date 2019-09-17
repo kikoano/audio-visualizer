@@ -129,6 +129,9 @@ const createGui = (preset) => {
     backgroundColorControl = folderGlobal.addColor(guiData, "backgroundColor").name("Background color");
     asciiEffectControl = folderGlobal.add(guiData, "asciiEffect").name("Ascii effect");
     statsControl = folderGlobal.add(guiData, "stats").name("Stats");
+
+    if (audio.buffer != null)
+        currentTimeGui.__max = timeToMinSecFloat(audio.buffer.duration);
 }
 //
 
