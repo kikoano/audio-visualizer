@@ -86,6 +86,7 @@ const guiData = {
 }
 //global GUI
 let gui;
+let folderMain;
 let currentTimeGui;
 let pauseResumeControl;
 let asciiEffectControl;
@@ -103,7 +104,7 @@ const createGui = (preset) => {
     }
 
     gui = new dat.GUI({ width: 300, load: JSON.parse(getFileText("presets/" + preset)), preset: "Default" });
-    const folderMain = gui.addFolder("Main");
+    folderMain = gui.addFolder("Main");
     folderMain.open();
 
     sceneConrol = folderMain.add(guiData, "scene", scenes).name("Scene");
@@ -124,6 +125,10 @@ const createGui = (preset) => {
 
 //Load music
 const loadMusic = (name) => {
+    //show loading bar and hide folderMain
+    document.getElementById("loading").style.display = "block";
+    folderMain.hide();
+
     pauseResumeControl.name("⏸️ Pause");
     pausedTime = 0;
     let add = "";
@@ -136,6 +141,10 @@ const loadMusic = (name) => {
         audio.setBuffer(buffer);
         audio.setVolume(1);
         audio.play();
+        //hide loading bar and show folderMain
+        document.getElementById("loading").style.display = "none";
+        folderMain.show();
+
         currentTimeGui.__max = timeToMinSecFloat(audio.buffer.duration);
     });
 }
