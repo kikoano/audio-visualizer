@@ -20,5 +20,4 @@ Full VR support.
 * [dat.guiVR](https://github.com/dataarts/dat.guiVR)
 * [stats.js](https://github.com/mrdoob/stats.js/)
 * [StatsVR](https://github.com/Sean-Bradley/StatsVR)
-
 #### Изработил: Кристијан Трајковски
