@@ -1,14 +1,18 @@
 # 3D audio visualizer
-Web 3D Аudio visualizer written in javascript using three.js.
+Web 3D Аudio visualizer written in javascript using three.js with full VR support if available.
 
 #### Online link: https://kikoano.github.io/audio-visualizer/
 ![audio visualizer](https://github.com/kikoano/audio-visualizer/blob/master/images/audio%20visualizer.png)
-
-Full VR support.
 ![audio visualizer](https://github.com/kikoano/audio-visualizer/blob/master/images/audio%20visualizer.png)
 ## Контроли и користење
-
+### GUI
+### Menu
+### Global scene
+### Scene
 ## Изработка
+### Global
+### Ball
+### Wave
 
 ## VR поддршка
 
