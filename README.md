@@ -2,11 +2,12 @@
 Web 3D Аudio visualizer written in javascript using three.js with full VR support if available.
 
 #### Online link: https://kikoano.github.io/audio-visualizer/
-![audio visualizer](https://github.com/kikoano/audio-visualizer/blob/master/images/audio%20visualizer.png)
-![audio visualizer](https://github.com/kikoano/audio-visualizer/blob/master/images/audio%20visualizer.png)
+![](https://github.com/kikoano/audio-visualizer/blob/master/images/audio%20visualizer.png)
+![](https://github.com/kikoano/audio-visualizer/blob/master/images/audio%20visualizer.png)
 ## Контроли и користење
 ### GUI
-### Menu
+Се користи dat.GUI за сите контроли во апликацијата. GUI е составено од folders: main, global scene и scene. Секој фолдер содржи контроли. Сите контроли работат во реално време за да може да се видат измените веднаш. Има опција да се изберат готови presets вредности за контролите како и можност за снимање на моменталните контроли.
+### Main
 ### Global scene
 ### Scene
 ## Изработка
