@@ -37,7 +37,7 @@ Background color е избор на позадина боја. Ascii effect го
 ![](https://github.com/kikoano/audio-visualizer/blob/master/images/wave%20scene%20gui.png)
 
 Има контроли за подесување на раздвојување, ширина и висина на wave. Wave е составен од particles(честички). Particle 1 се долните particles а, particle 2 се горните particles. Има контроли за избор на боја за Particle 1 и 2. Wave speed е брзината на брановите(оваа брзина е помножена со моментала фреквентна брзина за да не биде константна).
-## Краток опис на изработка)
+## Краток опис на изработка
 Се користи renderer, camera и clock од three.js. Димензиите на рендерот(canvas екран) димамички се менуваат во зависност ако се resize веб прелистувачот.
 
 Има можност за измена на почетната музика(default music) со query string `music`. Вредности што може да ги добие се од 0 до 4. Пример: `?music=3`. Ако нема нема дефинирано query string тогаш вредноста е 0.
@@ -56,7 +56,7 @@ Scene е класа од која се изведени класите Ball и W
 #### Wave
 Се користат shaders wave.vert и wave.frag. Со THREE.BufferGeometry(geometry) и THREE.ShaderMaterial(material) се имплементираат shaders во Three.js. Се прави particles и particles2 со `new THREE.Points(geometry, material);`.
 
-Се прави итерација на сите точки во particles и particles2 и се прави бран ефект(wave effect) со помош на фреквенцијата на музиката, Math.sin modulate функцијата. Брзината на движењето на браноот исто така зависи од фреквенцијата на музиката.
+Се прави итерација на сите точки во particles и particles2 и се прави бран ефект(wave effect) со помош на фреквенцијата на музиката, Math.sin и modulate функцијата. Брзината на движењето на браноот исто така зависи од фреквенцијата на музиката.
 ## VR поддршка
 ![](https://github.com/kikoano/audio-visualizer/blob/master/images/vr%20gui3.gif)
 
